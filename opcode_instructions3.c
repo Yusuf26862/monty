@@ -147,3 +147,4 @@ void _pstr(stack_t **doubly, unsigned int cline)
 
 	printf("\n");
 }
+

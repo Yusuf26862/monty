@@ -6,6 +6,7 @@
  *@n: data to store
  *Return: a doubly linked list
  */
+
 stack_t *add_dnodeint_end(stack_t **head, const int n)
 {
 	stack_t *temp, *aux;
@@ -88,3 +89,4 @@ void free_dlistint(stack_t *head)
 		free(tmp);
 	}
 }
+
